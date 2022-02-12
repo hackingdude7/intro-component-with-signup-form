@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Kumbh+Sans:wght@400;700&family=Outfit:wght@400;500&family=Poppins:wght@200;300;400;500;600;700;800&family=Vujahday+Script&display=swap');
+html{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    background: url(./images/bg-intro-desktop.png) hsl(0, 100%, 74%) ;
+}
+.container{
+    display: flex;
+    width: 1200px;
+    margin-top: 5rem;
+}
+.content{
+    width: 45%;
+    color: white;
+}
+.form{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+   
+}
+.message{
+    width: 95%;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+   background-color:hsl(248, 32%, 49%);
+   font-weight: 300;
+   color: white;
+   box-shadow: 0px 8px 3px hsla(0, 0%, 0%, 0.247);
+}
+.message p span{
+    font-weight: 600;
+}
+.sign-up{
+    display:flex;
+    flex-direction: column;
+    width: 95%;
+    margin-top: 2rem;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 8px 3px hsla(0, 0%, 0%, 0.247);
+}
+.sign-up input,.sign-up button{
+    width: 86%;
+    margin: auto;
+    margin-top: 1rem;
+    border: 1px solid hsl(246, 25%, 77%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    height: 65px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.sign-up input{
+    width: 80%;
+    padding-left: 2rem;
+    color: hsl(249, 10%, 26%) ;
+}
+.sign-up input:focus{
+    outline-color: hsl(248, 32%, 49%);
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.sign-up button{
+    text-transform: uppercase;
+    color: white;
+    background:  hsl(154, 59%, 51%);
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0px 5px 3px hsl(154, 58%, 38%);
+    cursor: pointer;
+}
+.sign-up button:hover{
+     background:  hsl(154, 100%, 65%);
+     box-shadow: 0px 5px 3px hsl(154, 75%, 57%);
+}
+.sign-up input:first-child{
+    margin-top: 2rem;
+}
+.sign-up input::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.sign-up p{
+    font-size: 14px;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    color: hsl(246, 25%, 77%);
+}
+.sign-up p span{
+    color: hsl(0, 100%, 74%);
+    font-weight: 800;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 17px;
+}
+.content h1{
+    font-size: 55px;
+    line-height: 65px;
+    margin-bottom: 20px;
+}
+
+.image{
+    display: none;
+    position: absolute;
+    left: 85%;
+    width: 30px;
+    top: 40%;
+}
+small{
+display: none;
+text-align: end;
+margin-right: 3rem;
+margin-top: 0.5rem;
+color: hsl(0, 100%, 74%);
+font-size: 14px;
+font-weight: 500;
+font-style: italic;
+}
+.active{
+    display: block;
+}
